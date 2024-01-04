@@ -8,7 +8,7 @@ with st.sidebar:
     "[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)"
 
 
-st.title("💬 Chatbot Chatbot GPTalkmate3.5-FT")
+st.title("💬 Chatbot GPTalkmate3.5-FT")
 st.caption("🚀 A streamlit chatbot powered by OpenAI LLM")
 if "messages" not in st.session_state:
     st.session_state["systemprompt"] = [{"role": "system", "content": "GPTalkmateは、ユーザーの言語レベルに応じて返答のレベルを自動的に調整する適応型の会話型AIです。ユーザーの会話内容の深さや言葉の難易度、文法の難易度、そしてその話題に対する理解度を判断し、ユーザーと同じレベルの言葉を使って返答します。"}]
